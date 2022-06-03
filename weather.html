@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./weather.css" />
+    <script src="./app.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="helloWindow on">
+        <h3 class="title">Weather App</h3>
+        <div class="separator"></div>
+        <p class="warningString">Enter the correct name of your city</p>
+        <input type="text" class="inputCity onMargin" placeholder="Your city" />
+      </section>
+
+      <section class="weatherWindow">
+        <h3 class="title">Weather App</h3>
+        <div class="separator"></div>
+
+        <div class="infoCity">
+          <p class="nameCity"></p>
+          <div class="temperature">+<span class="temperatureCity"></span></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

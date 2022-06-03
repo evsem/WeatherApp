@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+}
+
+.helloWindow,
+.weatherWindow {
+  padding: 24px 0px 0px 0px;
+  width: 527px;
+  height: auto;
+  background-color: #3e3e3e;
+  border: none;
+  border-radius: 6px;
+
+  display: none;
+}
+
+.title {
+  padding: 0px 24px;
+  margin-bottom: 11px;
+  font-size: 44px;
+  font-weight: 500;
+  color: #cbcbcb;
+}
+
+.separator {
+  width: 527px;
+  height: 3px;
+  background-color: #636363;
+}
+
+.warningString {
+  margin: 23px 0px 24px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #e28b8b;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: none;
+}
+.on {
+  display: block;
+}
+.off {
+  display: none;
+}
+
+.inputCity {
+  margin: 0px 0px 40px 24px;
+  padding: 3px 0px 3px 11px;
+  width: 467px;
+  height: 42px;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 4px;
+  color: #949494;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 300;
+  outline: none;
+}
+.onMargin {
+  margin: 33px 0px 33px 24px;
+}
+
+.infoCity {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.nameCity,
+.countryOfCity {
+  font-size: 86px;
+  font-weight: 400;
+  color: #e1b2f3;
+}
+
+.temperatureCity,
+.temperature {
+  display: inline-block;
+  margin: 0px 0px 6px 0px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  color: #e070c1;
+}
